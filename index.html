@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tasmagic | Smarter Tasmota Management</title>
+    <meta
+      name="description"
+      content="Tasmagic is the enterprise-ready companion for discovering, provisioning, automating, and monitoring every Tasmota device in the field."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-inner">
+        <a class="logo" href="index.html">tasmagic</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Features</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <header class="hero">
+        <div class="hero-badge">Commercial Suite v0.1.0</div>
+        <h1>All your Tasmota devices, orchestrated from one beautiful app.</h1>
+        <p>
+          Tasmagic unifies zero-touch discovery, guided Wi-Fi onboarding, curated Berry automation, and live observability
+          so rollout teams deliver predictable projects. The Free edition functions as a perpetual demo, letting stakeholders
+          experience the workflow before upgrading to Premium, Pro, or Pro Plus service tiers.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn--primary" href="downloads/tasmagic-free-demo.apk" download>
+            Download Free Demo APK
+          </a>
+          <a class="btn btn--ghost" href="contact.html">
+            Request deployment support
+          </a>
+        </div>
+      </header>
+
+      <section class="section">
+        <h2>What makes Tasmagic different?</h2>
+        <p class="section-lead">
+          Built for professional installers, managed service providers, and in-house operations teams who depend on Tasmota daily.
+        </p>
+        <div class="grid">
+          <article class="card">
+            <span class="pill">Device intelligence</span>
+            <h3>Instant discovery</h3>
+            <p>
+              Scan the network, fingerprint firmware, and auto-generate dashboards for every relay, light, or sensor in seconds.
+            </p>
+          </article>
+          <article class="card">
+            <span class="pill">Provisioning</span>
+            <h3>Guided Wi-Fi onboarding</h3>
+            <p>
+              Batch provision captive portals, push MQTT credentials, and validate relay states before leaving the site.
+            </p>
+          </article>
+          <article class="card">
+            <span class="pill">Automation</span>
+            <h3>Visual Berry builder</h3>
+            <p>
+              Translate Berry code back into editable triggers, conditions, and actions. Deploy automations without syntax anxiety.
+            </p>
+          </article>
+          <article class="card">
+            <span class="pill">Operations</span>
+            <h3>Live dashboards</h3>
+            <p>
+              Rich charts for sensors, relay overrides, RGB/CT lighting controls, template switching, and OTA firmware management.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Variants tuned for every deployment</h2>
+        <p class="section-lead">
+          Select the service tier that matches your operating model. Feature gates are enforced at build time, ensuring each release
+          carries only the capabilities you license.
+        </p>
+        <div class="card">
+          <table class="variants-table">
+            <thead>
+              <tr>
+                <th>Tier</th>
+                <th>Core inclusions</th>
+                <th>Ideal for</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Free (Demo)</td>
+                <td>Discovery, Wi-Fi provisioning, smart dashboard, full localization</td>
+                <td>Proof-of-concept rigs and internal evaluations</td>
+              </tr>
+              <tr>
+                <td>Premium</td>
+                <td>+ Appearance editor, custom sections, branded dashboards</td>
+                <td>Client-facing UI rollouts</td>
+              </tr>
+              <tr>
+                <td>Pro</td>
+                <td>+ GPIO designer, timers, Berry automations, template catalog</td>
+                <td>Installers &amp; field service teams</td>
+              </tr>
+              <tr>
+                <td>Pro Plus</td>
+                <td>+ Sensor analytics, backups, advanced lights, OTA workflows</td>
+                <td>Enterprise programs and MSP fleets</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Trusted across every phase of deployment</h2>
+        <div class="grid">
+          <article class="testimonial">
+            <p>
+              “We replaced spreadsheets and CLI scripts with Tasmagic dashboards.
+              Commissioning 40-node lighting installs now takes one afternoon.”
+            </p>
+            <p><strong>— Systems Integrator, Berlin</strong></p>
+          </article>
+          <article class="testimonial">
+            <p>
+              “Berry automation diffing is a lifesaver. We can audit customer rules,
+              tweak logic visually, and push trusted code back to the device.”
+            </p>
+            <p><strong>— Smart Home Consultant, São Paulo</strong></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="cta-panel">
+          <h2>Ready for pilot, rollout, or fleet migration?</h2>
+          <p>
+            Every commercial build is regression-tested, signed, and delivered with release documentation. Engage our team to scope deployment
+            assistance, private previews, or custom modules tailored to your hardware mix.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn--primary" href="downloads/tasmagic-free-demo.apk" download>
+              Download Free Demo APK
+            </a>
+            <a class="btn btn--ghost" href="contact.html">Book a consultation</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Tasmagic by Smartinado. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="portfolio.html">Feature map</a>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
